@@ -1,0 +1,337 @@
+body {
+    
+    font-size: 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.363) ;
+    padding: 2px;
+    
+}
+img{
+    width: 155px;
+    height: 50px;
+    margin: -15px;
+}
+
+
+
+header {
+    width: auto;
+    background-color: black;
+    height: 300px;
+    margin-top: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-image: url(Depositphotos_37974403_l-2015.jpg);
+    text-decoration-line: none;
+    
+    
+ 
+}
+
+h1{
+    font-family: monospace;
+    font-size: 80px; 
+    font-weight: 100;
+    color: white;
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+h6{
+    margin-top: -40px; 
+    font-weight: lighter;
+    color: white;
+}
+
+
+.rodape{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: 20px;
+    text-align: left;
+  
+    
+
+}
+
+.rodape ul{
+    width: auto;
+    height: auto;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    
+  
+
+}
+.rodape ul li{
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    
+    
+}
+.rodape ul li a{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    text-decoration-line: none;
+    color: black;
+    
+}
+.rodape ul li a:hover{
+    text-decoration-line: underline;
+    color:rgb(59, 5, 255) ;    
+}
+.rodape ul li a i{
+    color: black;
+} 
+.rodape ul li a i:hover{
+    color:rgb(59, 5, 255) ;
+
+}
+
+
+
+/*icones redes sociais */
+.icones{
+   
+    margin-right: 10px;
+    font-size: 22px;
+    color: white;
+ 
+
+}
+
+
+/* parte final */
+
+footer {
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+    margin-top: 15px;
+    padding: 40px;
+    padding-left: 70px;
+    font-style: italic;
+    font-size: 20px;
+}
+footer a:hover{
+    color: rgba(142, 142, 238, 0.603);
+    font-size: 35px;
+}
+
+.icones{
+    float: right;
+    margin-right: 60px;
+    font-size: 30px;
+}
+/* --------------------------------*/ 
+
+.centro{
+    
+    height: auto;
+    width: auto;
+    margin-top: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    
+    
+   
+
+}
+
+.centro ul{
+    list-style: none;
+    text-decoration: black;
+    margin-top: 0px;
+    text-align: center;
+    width: 510px;
+    height: 480px;
+    border-radius: 50%;
+    padding: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.808);
+    border: solid black;
+    box-shadow: 0px 0px 10px 3px black ;
+}
+
+.centro ul li{
+    text-decoration-style: none;
+    background-color: rgba(0, 0, 0, 0.466);
+    margin-top: 10px;
+    padding: 8px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(0, 0, 0);
+    border-style: solid;
+    font-size: 40px;
+    
+}
+
+.centro ul li a{
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    
+}
+.centro ul li a:hover{
+    color: rgb(138, 159, 253);
+    
+}
+
+.centro ul li:hover{
+    background-color: rgba(0, 0, 0, 0.87);
+    border: solid white;
+    
+}
+
+.conversor{
+        margin-top: 20px;
+        padding-top: 0px;
+        margin-left:20% ;
+        margin-right: 20%;
+        color: aliceblue;
+        font-size: 30px;
+        
+
+}
+
+p{
+    text-align: justify;
+    margin-left:100px ;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    text-indent: 50px;
+    font-size:  20px;
+
+}
+
+.sidebar-menu {
+    height: auto;
+    float: left;
+    width: 20%;
+    color: black;
+    margin-left: -10px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+   
+}
+
+.sidebar-propaganda {
+    float: right;
+    width: 20%;
+    height: auto;
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: -10px;
+    margin-top: 5px;
+   
+   
+
+}
+
+.caixatexto{
+    color: rgb(0, 0, 0);
+
+}
+/* Aqui vem o estilo da caixa dos conversores      */
+
+.caixa-conversor{
+    background-color: rgba(0, 0, 0, 0.452);
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    margin-top: 160px;
+    padding: 2px;
+    padding-bottom: 15px;
+    border: rgb(0, 0, 0) transparent;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+.caixa-conversor input {
+    width: 205px;
+    font-family: monospace;
+    text-align: center;
+    padding: 1px;
+    font-size: 23px;
+  
+   
+
+}
+
+.caixa-conversor select {
+    width: 210px;
+    font-family: monospace;
+    margin-left: 17px; 
+    margin-right: 17px; 
+    margin-top: 0px;
+    text-transform: capitalize;
+    padding: 1px; 
+    font-size: 23px;
+}
+.caixa-conversor select option{ 
+    text-transform: capitalize;
+}
+
+
+/* Aqui termina o estilo deles   */
+
+/* Aqui vem as imagens no background dos ul's */
+
+.ul-index-image{
+    background-image: url(four-assorted-color-horse-on-grass-fields-near-tall-trees-1366913.jpg);
+}
+.ul-comprimento-image{
+    background-image: url(comprimento.png);
+}
+.ul-area-image{
+    background-image: url(Area.png);
+}
+.ul-volume-image{
+    background-image: url(volume.png);
+}
+.ul-massa-image{
+    background-image: url(massa.png);
+}
+.ul-temperatura-image{
+    background-image: url(temperatura.png);
+}
+.ul-velocidade-image{
+    background-image: url(velocidade.png);
+}
+
+/* ----------------------------------- */

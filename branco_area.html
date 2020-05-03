@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Área</title>
+    <link rel="stylesheet" href="branco_style.css">
+    <!--Link para font awesome-->
+    <script src="https://kit.fontawesome.com/79ca7ab7c2.js" crossorigin="anonymous"></script>
+    <!--                       -->
+  </head>
+  <body>
+
+    <div class="rodape">
+      <ul>
+
+        <li><img src="cropped-logo.png" alt="" ></li>
+        <li><a href="branco_index.html" >Início</a></li>
+        <li><a href="">Contato</a></li>
+        <li><a href="">Curiosidades</a></li>
+        <li><a href="">Conheça-nos</a></li>
+        
+        <li><a href="preto_area.html"><i class="fas fa-moon" ></i></a></li>
+        
+      </ul>
+    </div>
+
+    
+      <header>
+
+       
+          <h1>
+            
+            CONVERSOR DE UNIDADES
+
+          </h1>
+
+          <h6 >
+
+            Um peso e duas Medidas
+
+          </h6>
+       
+      </header>
+
+
+      <div class="sidebar-menu">
+      
+
+
+      </div>
+
+
+      <div class="sidebar-propaganda">
+       
+
+      </div>
+
+
+          <div class="centro" >
+
+              
+              <div class="conversor">
+                <h3>Área</h3>
+                <!--Aqui vem o campo de conversao-->
+                  
+                    <div class="caixa-conversor">
+                          QUERO CONVERTER  <BR>
+                          
+                                <select id="inputtype" onchange="conversor_area()">
+                                    <option value="quilômetro quadrado">quilômetro quadrado </option> 
+                                    <option value="hectare">hectare</option>                        
+                                    <option value="metro quadrado">metro quadrado</option>
+                                    <option value="decímetro quadrado">decímetro quadrado</option>
+                                    <option value="centímetro quadrado">centímetro quadrado</option>
+                                    <option value="milímetro quadrado">milímetro quadrado</option>
+                                    <option value="micrômetro quadrado">micrômetro quadrado </option>
+                                    <option value="milha quadrado">milha quadrado</option>
+                                    <option value="pé quadrado">pé quadrado</option>
+                                    <option value="polegada quadrada">polegada quadrada</option>
+                                </select> 
+                                
+                                <select id="outputype" onchange="conversor_area()">   
+                                  <option value="quilômetro quadrado">quilômetro quadrado </option> 
+                                  <option value="hectare">hectare</option>                        
+                                  <option value="metro quadrado">metro quadrado</option>
+                                  <option value="decímetro quadrado">decímetro quadrado</option>
+                                  <option value="centímetro quadrado">centímetro quadrado</option>
+                                  <option value="milímetro quadrado">milímetro quadrado</option>
+                                  <option value="micrômetro quadrado">micrômetro quadrado </option>
+                                  <option value="milha quadrado">milha quadrado</option>
+                                  <option value="pé quadrado">pé quadrado</option>
+                                  <option value="polegada quadrada">polegada quadrada</option>
+                                </select>    
+
+                           
+
+                              <input type="number" id="input" name="conta" placeholder="Entrada" oninput="conversor_area()">    
+                              =
+                              <input type="number" id="resultado" name="conta" placeholder="Saída" oninput="conversor_area()">
+                      
+                    </div>
+                 
+                <!--Aqui termina esse campo -->
+                
+              </div>
+    
+              <div class="caixatexto">
+                 
+                Aqui vai algumas informações: 
+                <p> bla bla bla bla bla bla bla
+                  bla bla bla bla bla bla blabla bla bla bla bla bla bla  
+                  bla bla bla bla bla bla blabla bla bla bla bla bla bla 
+                  bla bla bla bla bla bla blabla bla bla bla bla bla bla
+                  bla bla bla bla bla bla blabla bla bla bla bla bla bla
+
+                </p>
+        
+    
+              </div>  
+               
+
+          </div>
+        
+
+
+          
+
+
+
+      <footer>
+        Ufftech Produções 2020 &copy;
+        <!--Ícones de redes sociais-->
+        <a href="" class="icones"><i class="fab fa-facebook" ></i></a>
+        <a href="" class="icones"><i class="fab fa-instagram " ></i></a>
+        <!--                       -->
+      </footer>
+
+      <script src="conversorarea.js" ></script>
+
+
+    
+  </body>   
+</html>

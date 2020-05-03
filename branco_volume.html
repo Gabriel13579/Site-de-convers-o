@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Volume</title>
+    <link rel="stylesheet" href="branco_style.css">
+    <script src="https://kit.fontawesome.com/79ca7ab7c2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+
+      <div class="rodape">
+        <ul>
+
+          <li><img src="cropped-logo.png" alt="" ></li>
+          <li><a href="index.html" >Início</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Curiosidades</a></li>
+          <li><a href="">Conheça-nos</a></li>
+          
+          <li><a href="preto_volume.html"><i class="fas fa-moon"  ></i></a></li>
+          
+        </ul>
+      </div>
+
+
+      <header>
+
+       
+          <h1>
+            
+            CONVERSOR DE UNIDADES
+          
+          </h1>
+          <h6 >
+
+            Um peso e duas Medidas
+
+          </h6>
+       
+      </header>
+
+
+      <div class="sidebar-menu">
+      Side Bar menu 
+
+
+      </div>
+
+
+      <div class="sidebar-propaganda">
+        sidebar-propaganda
+
+      </div>
+
+
+          <div class="centro" >
+
+              
+              <div class="conversor">
+                <h3>Volume</h3>
+                <!--Aqui vem o campo de conversao-->
+                
+                  <div class="caixa-conversor">
+                        QUERO CONVERTER  <BR>
+                          
+                              <select id="inputtype" onchange="conversor_volume()">
+                                <option value="quilômetro cúbico">quilômetro cúbico </option>                          
+                                <option value="metro cúbico">metro cúbico</option>
+                                <option value="centímetro cúbico">centímetro cúbico</option>
+                                <option value="milímetro cúbico">milímetro cúbico</option>
+                                <option value="litro">litro</option>
+                                <option value="mililitro">mililitro</option>
+                                <option value="pé cúbico">pé cúbico</option>
+                                <option value="polegada cúbica">polegada cúbica</option>
+                                <option value="onça fluida">onça fluida</option>
+                                <option value="colher de chá">colher de chá</option>
+                                <option value="colher de sopa">colher de sopa</option>
+                              </select> 
+                                
+                              <select id="outputype" onchange="conversor_volume()">   
+                                <option value="quilômetro cúbico">quilômetro cúbico </option>                          
+                                <option value="metro cúbico">metro cúbico</option>
+                                <option value="centímetro cúbico">centímetro cúbico</option>
+                                <option value="milímetro cúbico">milímetro cúbico</option>
+                                <option value="litro">litro</option>
+                                <option value="mililitro">mililitro</option>
+                                <option value="pé cúbico">pé cúbico</option>
+                                <option value="polegada cúbica">polegada cúbica</option>
+                                <option value="onça fluida">onça fluida</option>
+                                <option value="colher de chá">colher de chá</option>
+                                <option value="colher de sopa">colher de sopa</option>
+                              </select>    
+
+                       
+
+                            <input type="number" id="input" name="conta" placeholder="Entrada" oninput="conversor_volume()">    
+                            =
+                            <input type="number" id="resultado" name="conta" placeholder="Saída" oninput="conversor_volume()">
+                    
+                  </div>
+                
+              <!--Aqui termina esse campo -->     
+              </div>
+    
+              <div class="caixatexto">
+                 
+                Aqui vai algumas informações: 
+                <p> O volume de um corpo é a quantidade de espaço ocupada por esse corpo. 
+No sistema internacional (SI), a unidade que mede o volume é o metro cúbico (m3). Também é comum a utilização do litro ou do mililitro (mL) na medida de volume. 
+                </p>
+    
+              </div>  
+               
+
+          </div>
+        
+
+
+          
+
+
+
+      <footer>
+      Ufftech Produções 2020 &copy;
+      <!--Ícones de redes sociais-->
+        <a href="" class="icones"><i class="fab fa-facebook" ></i></a>
+        <a href="" class="icones"><i class="fab fa-instagram " ></i></a>
+      <!--                       -->
+      </footer>
+
+      <script src="coversorvolume.js"></script>
+  </body>   
+</html>

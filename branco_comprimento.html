@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Comprimento</title>
+    <link rel="stylesheet" href="branco_style.css">
+    <script src="https://kit.fontawesome.com/79ca7ab7c2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+
+      <div class="rodape">
+        <ul>
+
+          <li><img src="cropped-logo.png" alt="" ></li>
+          <li><a href="branco_index.html" >Início</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Curiosidades</a></li>
+          <li><a href="">Conheça-nos</a></li>
+          
+          <li><a href="preto_comprimento.html"><i class="fas fa-moon" ></i></a></li>
+          
+        </ul>
+      </div>
+
+
+      <header>
+
+       
+          <h1>
+            
+            CONVERSOR DE UNIDADES
+          
+          </h1>
+          <h6 >
+            Um peso e duas Medidas
+          </h6>
+       
+      </header>
+
+
+      <div class="sidebar-menu">
+     
+
+
+      </div>
+
+
+      <div class="sidebar-propaganda">
+        
+
+      </div>
+
+
+          <div class="centro" >
+
+              
+              <div class="conversor">
+                <h3>Comprimento</h3>
+                <!--Aqui vem o campo de conversao-->
+                  
+                    <div class="caixa-conversor">
+                          QUERO CONVERTER  <BR>
+                              
+                                <select id="inputtype" onchange="conversor_comprimento()">
+                                    <option value="quilômetro">Quilômetro </option>                          
+                                    <option value="metro">Metro</option>
+                                    <option value="decímetro">Decímetro</option>
+                                    <option value="centímetro">Centímetro</option>
+                                    <option value="milímetro">Milímetro</option>
+                                    <option value="micrômetro">Micrômetro</option>
+                                    <option value="légua">Légua</option>
+                                    <option value="milha">Milha</option>
+                                    <option value="jarda">Jarda</option>
+                                    <option value="pé">Pé</option>
+                                    <option value="polegada">Polegada</option>
+                                </select> 
+                               
+                                <select id="outputype" onchange="conversor_comprimento()">   
+                                  <option value="quilômetro">Quilômetro </option>                          
+                                  <option value="metro">Metro</option>
+                                  <option value="decímetro">Decímetro</option>
+                                  <option value="centímetro">Centímetro</option>
+                                  <option value="milímetro">Milímetro</option>
+                                  <option value="micrômetro">Micrômetro</option>
+                                  <option value="légua">Légua</option>
+                                  <option value="milha">Milha</option>
+                                  <option value="jarda">Jarda</option>
+                                  <option value="pé">Pé</option>
+                                  <option value="polegada">Polegada</option>
+                                </select>    
+
+                              
+
+                              <input type="number" id="input" name="conta" placeholder="Entrada" oninput="conversor_comprimento()">    
+                              =
+                              <input type="number" id="resultado" name="conta" placeholder="Saída" oninput="conversor_comprimento()">
+                      
+                    </div>
+                 
+                <!--Aqui termina esse campo -->
+              </div>
+    
+              <div class="caixatexto">
+                 
+                Aqui vai algumas informações:
+                  
+                <p> Na física, o comprimento é a grandeza que expressa a distância entre dois pontos. Na linguagem comum se costuma diferenciar a altura (quando se refere a um comprimento vertical) e a largura (quando se fala de um comprimento horizontal). Também na física, e na engenharia, a palavra comprimento é sinônimo de distância. O metro (m) é a unidade de medida principal para medir comprimento. 
+                </p>
+     
+              </div>  
+               
+
+          </div>
+        
+
+          
+
+      <footer>
+        Ufftech Produções 2020 &copy;
+        <!--Ícones de redes sociais-->
+        <a href="" class="icones"><i class="fab fa-facebook" ></i></a>
+        <a href="" class="icones"><i class="fab fa-instagram " ></i></a>
+        <!--                       -->
+      </footer>
+
+      <script src="conversor_comprimento.js"></script>
+  </body>   
+</html>

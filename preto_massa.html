@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Massa</title>
+    <link rel="stylesheet" href="preto_style.css">
+    <script src="https://kit.fontawesome.com/79ca7ab7c2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+
+      <div class="rodape">
+        <ul>
+
+          <li><img src="cropped-logo.png" alt="" ></li>
+          <li><a href="preto_index.html" >Início</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Curiosidades</a></li>
+          <li><a href="">Conheça-nos</a></li>
+          
+          <li><a href="branco_massa.html"><i class="fas fa-sun"></i></a></li>
+          
+        </ul>
+      </div>
+
+
+      <header>
+
+       
+          <h1>
+            
+            CONVERSOR DE UNIDADES
+          
+          </h1>
+          <h6 >
+            Um peso e duas Medidas
+          </h6>
+       
+      </header>
+
+
+      <div class="sidebar-menu">
+      
+
+
+      </div>
+
+
+      <div class="sidebar-propaganda">
+        
+
+      </div>
+
+
+          <div class="centro" >
+
+              
+
+              <div class="conversor">
+                <h3>Massa</h3>
+                <!--Aqui vem o campo de conversao-->
+                <ul class="ul-massa-image">
+                  <div class="caixa-conversor">
+                        QUERO CONVERTER  <BR>
+                        
+                              <select id="inputtype" onchange="conversor_massa()">
+                                <option value="Tonelada">Tonelada</option> 
+                                <option value="Kilonewton">Kilonewton</option>                        
+                                <option value="Quilograma">Quilograma</option>
+                                <option value="Hectograma">Hectograma</option>
+                                <option value="Grama">Grama</option>
+                                <option value="Centigrama">Centigrama</option>
+                                <option value="Miligrama">Miligrama</option>
+                                <option value="Micrograma">Micrograma</option>
+                                <option value="Nanograma">Nanograma</option>
+                                <option value="Unidade de massa de átomo">Unidade de massa de átomo</option>
+                              </select> 
+                              
+                              <select id="outputype" onchange="conversor_massa()">   
+                                <option value="Tonelada">Tonelada</option> 
+                                <option value="Kilonewton">Kilonewton</option>                        
+                                <option value="Quilograma">Quilograma</option>
+                                <option value="Hectograma">Hectograma </option>
+                                <option value="Grama">Grama</option>
+                                <option value="Centigrama">Centigrama</option>
+                                <option value="Miligrama">Miligrama</option>
+                                <option value="Micrograma">Micrograma</option>
+                                <option value="Nanograma">Nanograma</option>
+                                <option value="Unidade de massa de átomo">Unidade de massa de átomo</option>
+                              </select>    
+
+                         
+
+                            <input type="number" id="input" name="conta" placeholder="Entrada" oninput="conversor_massa()">    
+                            =
+                            <input type="number" id="resultado" name="conta" placeholder="Saída" oninput="conversor_massa()">
+                    
+                  </div>
+                </ul>
+                <!--Aqui termina esse campo --> 
+               
+              </div>
+    
+              <div class="caixatexto">
+                 
+                Aqui vai algumas informações: 
+                <p> Podemos entender a massa de um corpo como uma expressão da quantidade
+                  de matéria nele contida: prótons, nêutrons, elétrons e outras partículas menores. A unidade de medida oficial (SI) é o quilograma, representado pelo símbolo (kg).
+                </p>
+    
+              </div>  
+               
+
+          </div>
+        
+
+
+          
+
+
+
+      <footer>
+          Ufftech Produções 2020 &copy;
+          <!--Ícones de redes sociais-->
+          <a href="" class="icones"><i class="fab fa-facebook" ></i></a>
+          <a href="" class="icones"><i class="fab fa-instagram " ></i></a>
+        <!--                       -->
+      </footer>
+
+      <script src="conversormassa.js"></script>
+  </body>   
+</html>
